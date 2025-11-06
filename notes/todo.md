@@ -1,0 +1,8 @@
+- ~~learn how CNN works~~
+- define and train model
+- buy rpi camera
+- export model with TF serving for external API and TF lite for local usage on rpi (I want to do it both ways)
+- create and deploy API app
+- create raspberry pi client app
+- learn how to design 3d stuff
+- design and print on 3d printer dice arena model with rpi slot and lights
