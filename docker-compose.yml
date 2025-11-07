@@ -1,9 +1,10 @@
 services:
-  dice-roll-counter:
+  app:
     build: .
     volumes:
       - ./src:/app/src
       - ./data:/app/data
+      - ./sample_data:/app/sample_data
     command: python src/main.py
     environment:
       - PYTHONUNBUFFERED=1
