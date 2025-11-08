@@ -5,6 +5,5 @@ services:
       - ./src:/app/src
       - ./data:/app/data
       - ./sample_data:/app/sample_data
-    command: python src/main.py
     environment:
       - PYTHONUNBUFFERED=1
